@@ -14,7 +14,10 @@ response = requests.get(base_url, params=params)
 # Check the requests (status code 200)
 if response.status_code == 200:
     data = response.json()
-    
+    soup = BeautifulSoup(response.content, 'html.parser')
+    first_paragraph = soup.find('p')
+    if first_paragraph:
+        print(f'First Paragraph: {first_paragraph.text}')
     # Extracted and printed relevant information
     if 'Global Quote' in data:
         stock_data = data['Global Quote']
