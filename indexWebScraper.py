@@ -1,5 +1,5 @@
 import requests
-
+from bs4 import Beautiful Soup
 
 api_key = 'DNSL6E10MUG8ZN2X'
 base_url = 'https://www.alphavantage.co/query'
