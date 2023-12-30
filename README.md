@@ -1,1 +1,1 @@
-# This is a project where I utilized LEGAL API TO WEB SCRAPE FIANCICAL DATA TO GIVE ME THE a particular stocks finacniacl information. 
+# This project utilized an legal API to grant access to a Companies Stock Info. 
